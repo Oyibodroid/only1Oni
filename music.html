@@ -5,14 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-        <script src="https://kit.fontawesome.com/2cb317e1bf.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://kit.fontawesome.com/2cb317e1bf.js" crossorigin="anonymous"></script>
 
     <script src="./js/nav.js" defer></script>
     <link rel="stylesheet" href="./css/shared.css">
@@ -29,32 +31,39 @@
             <a href="./index.html">
                 <p id="oni">only1Oni</p>
             </a>
+            <div class="right">
 
-            <div id="burger-container">
-                <button onclick="myFunction(), burger()" id="burger">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
-                </button>
-                <div id="myDropdown" class="dropdown-content">
-                    <a href="./index.html">home</a>
-                    <a href="./gallery.html">photography</a>
-                    <a href="./music.html">music</a>
-                    <a href="#popup-form">contact</a>
+                <div class="support">
+                    <a href="https://flutterwave.com/pay/danieloniphoto" target="_blank">Donate</a>
+                </div>
+
+                <div id="burger-container">
+                    <button onclick="myFunction(), burger()" id="burger">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="./index.html">home</a>
+                        <a href="./gallery.html">photography</a>
+                        <a href="./music.html">music</a>
+                        <a href="#popup-form">contact</a>
+                    </div>
                 </div>
             </div>
+
 
         </div>
         <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
 
     </header>
 
-    
+
     <main>
 
-        
+
         <div id="popup-form">
-          
+
             <form id="drop-form" action="" method="post">
 
                 <div class="info">
@@ -70,8 +79,7 @@
                 </div>
 
                 <div>
-                    <textarea name="message" class="user" placeholder="What's on your mind..."
-                        id="message"></textarea>
+                    <textarea name="message" class="user" placeholder="What's on your mind..." id="message"></textarea>
                 </div>
                 <div class="button">
 
@@ -85,45 +93,86 @@
             <div class="hero-content">
                 <h1>Manifestation of Essence</h1>
                 <p>
-                     Aside from photography, Only1Oni s also an afro-gospel singer with an EP titled "Peace & Love" and a number of singles. He is constantly working on new music projects and is excited to share his creative ideas with the world.
+                    Aside from photography, Only1Oni s also an afro-gospel singer with an EP titled "Peace & Love" and a
+                    number of singles. He is constantly working on new music projects and is excited to share his
+                    creative ideas with the world.
                 </p>
             </div>
         </div>
 
+<div id="center-align">
+      <section class="card-container">
 
-        <section class="card-container">
-            <a  href="https://open.spotify.com/artist/7t6qxmgzVariFlzDDMEBXK?si=aAzLEcRBRfulMCpXV_jJ4Q" target="_blank" class="container">
-                <img src="images/img/photo-1558212628-ad7f5fb28c5e.jpg" alt="Avatar" class="image">
-                <div class="overlay">
-                    <p class="text">Take a look at my Spotify</p>
+            <div class="card">
+
+                <div class="image">
+                    <img src="images/img/photo-1558212628-ad7f5fb28c5e.jpg" alt="Avatar">
                 </div>
-                <h3><i class="fab fa-spotify" style="color: chartreuse;"></i> Spotify</h3>
-            </a>
-            <a href="https://www.youtube.com/@onitharnyel" target="_blank" class="container">
-                <img src="images/img/photo-1494475673543-6a6a27143fc8.jpg" alt="Avatar" class="image">
-                <div class="overlay">
-                    <p class="text">Take a look at my Youtube</p>
+
+                <div class="card-text">
+                    <h3> Youtube</h3>
+                    <a href="https://www.youtube.com/@onitharnyel" target="_blank"  class="play">
+                        <img src="./images/icons/play.svg" alt="">
+                    </a>
                 </div>
-                <h3><i class="fab fa-youtube" style="color: red;"></i> Youtube</h3>
-            </a>
-            <a href="https://music.apple.com/tr/artist/only1oni/1505512929" target="_blank" class="container">
-                <img src="images/img/photo-1484755560615-a4c64e778a6c.jpg" alt="Avatar" class="image">
-                <div class="overlay">
-                    <p class="text">Take a look at my Apple music</p>
+
+            </div>
+
+            <div class="card">
+
+                <div class="image">
+                    <img src="images/img/photo-1558212628-ad7f5fb28c5e.jpg" alt="Avatar">
                 </div>
-                <h3><i class="fab fa-apple"></i> Apple music</h3>
-            </a>
-            <a href="https://audiomack.com/only1oni" target="_blank" class="container">
-                <img src="images/img/photo-1534073828943-f801091bb18c.jpg" alt="Avatar" class="image">
-                <div class="overlay">
-                    <p class="text">Take a look at my Audiomack</p>
+
+                <div class="card-text">
+                    <h3> Apple Music</h3>
+                    <a href="https://music.apple.com/tr/artist/only1oni/1505512929"
+                        target="_blank" class="play">
+                        <img src="./images/icons/play.svg" alt="">
+                    </a>
                 </div>
-                    <h3><i class="fa fab-audio"></i> Audiomack</h3>
-                
-            </a>
+
+            </div>
+
+            <div class="card">
+
+                <div class="image">
+                    <img src="images/img/photo-1558212628-ad7f5fb28c5e.jpg" alt="Avatar">
+                </div>
+
+                <div class="card-text">
+                    <h3> Audiomack</h3>
+                    <a href="https://audiomack.com/only1oni" 
+                        target="_blank" class="play">
+                        <img src="./images/icons/play.svg" alt="">
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="image">
+                    <img src="images/img/photo-1558212628-ad7f5fb28c5e.jpg" alt="Avatar">
+                </div>
+
+                <div class="card-text">
+                    <h3> Spotify</h3>
+                    <a href="https://open.spotify.com/artist/7t6qxmgzVariFlzDDMEBXK?si=aAzLEcRBRfulMCpXV_jJ4Q"
+                        target="_blank" class="play">
+                        <img src="./images/icons/play.svg" alt="">
+                    </a>
+                </div>
+
+            </div>
+
+
+
         </section>
 
 
+</div>
+      
     </main>
 </body>
 
@@ -147,4 +196,3 @@
 </footer>
 
 </html>
-

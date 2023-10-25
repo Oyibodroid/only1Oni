@@ -1,0 +1,24 @@
+ <a href="https://www.youtube.com/@onitharnyel" target="_blank" class="container">
+                <img src="images/img/photo-1494475673543-6a6a27143fc8.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <p class="text">Take a look at my Youtube</p>
+                </div>
+                <h3><i class="fab fa-youtube" style="color: red;"></i> Youtube</h3>
+            </a>
+
+            <a href="https://music.apple.com/tr/artist/only1oni/1505512929" target="_blank" class="container">
+                <img src="images/img/photo-1484755560615-a4c64e778a6c.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <p class="text">Take a look at my Apple music</p>
+                </div>
+                <h3><i class="fab fa-apple"></i> Apple music</h3>
+            </a>
+
+            <a href="https://audiomack.com/only1oni" target="_blank" class="container">
+                <img src="images/img/photo-1534073828943-f801091bb18c.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <p class="text">Take a look at my Audiomack</p>
+                </div>
+                <h3><i class="fa fab-audio"></i> Audiomack</h3>
+
+            </a>
