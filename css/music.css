@@ -32,10 +32,11 @@
 }
 
 .image img {
-  height: 250px;
+  height: 300px;
   width: 100%;
   object-fit: cover;
   border-radius: 9px;
+  transition: all 1s;
 }
 
 .card {
@@ -47,6 +48,10 @@
   padding: .5rem;
   box-shadow: 1px 2px 16px #b9b9b985;
   border-radius: 9px;
+}
+
+.card:hover .image img{
+  opacity: .5;
 }
 
 .card-text {
@@ -67,6 +72,18 @@
   padding: 10px;
   border-radius: 50%;
 
+}
+
+.spotify{
+  background: green;
+}
+
+.apple{
+  background-color: rgb(219, 219, 219);
+}
+
+.audiomack{
+  background: orangered;
 }
 
 .play::after {
