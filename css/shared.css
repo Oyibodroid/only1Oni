@@ -175,7 +175,6 @@ header a {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(/images/img2/Personal/DAN_6889.jpg);
   height: 30rem;
   background-size: cover;
-  background-position-y: 20%;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }

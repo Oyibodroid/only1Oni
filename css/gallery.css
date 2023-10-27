@@ -7,7 +7,6 @@ main {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(/images/img2/Personal/DAN_5371.jpg);
   background-size: cover;
   background-attachment: fixed;
-  background-position-y: 20%;
 }
 
 .hero-content {
@@ -91,7 +90,6 @@ main {
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  gap: .3rem;
 }
 
 .column img {
@@ -205,10 +203,6 @@ span:focus {
     width: 880px;
   }
 
-  .column img:hover {
-    width: 100%;
-    height: 100%;
-  }
 
 }
 

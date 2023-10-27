@@ -27,6 +27,10 @@
     <script src="./js/sort.js" defer></script>
     <script src="./js/nav.js"></script>
 
+    
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
     <title>Only1oni</title>
 </head>
 
@@ -108,24 +112,24 @@
         </div>
 
         <div class="collabs">
-            <h3>Here's a list of people he's worked with over the years</h3>
-            <div class="collab-grid">
-                <ul>
-                    <div class="grid-1">
-                        <li>tosin bee</li>
-                        <li>iyanya</li>
-                        <li>tush</li>
-                        <li>powress</li>
-                        <li>puncho</li>
-                    </div>
-                    <div class="grid-2">
-                        <li>timaya</li>
-                        <li>ridah talatu</li>
-                        <li>ehyo</li>
-                        <li>doonte</li>
-                    </div>
-                </ul>
+            <h3>Here's a list of people I've worked with over the years</h3>
+
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">tosin bee</div>
+                    <div class="swiper-slide">iyanya</div>
+                    <div class="swiper-slide">tush</div>
+                    <div class="swiper-slide">powress</div>
+                    <div class="swiper-slide">puncho</div>
+                    <div class="swiper-slide">timaya</div>
+                    <div class="swiper-slide">ridah talatu</div>
+                    <div class="swiper-slide">ehyo</div>
+                    <div class="swiper-slide">doonte</div>
+                    <div class="swiper-slide">gladyslasila</div>
+                </div>
             </div>
+
         </div>
 
         <section id="photo-grid">
@@ -139,6 +143,7 @@
                     <img src="images/img2/Pre-wedding/1/DAN_9794.jpg" alt="">
                     <img src="images/img2/Pre-wedding/2/DAN_0805.jpg" alt="">
                     <img src="images/img2/Pre-wedding/3/DAN_5718.jpg" alt="">
+                    <img src="images/img2/TosinBee/DAN_0790.jpg" alt="">
                     <img src="images/img2/Pre-wedding/1/DAN_9574.jpg" alt="">
 
                     <img src="images/img/photo-1558212628-ad7f5fb28c5e.jpg" alt="">
@@ -223,6 +228,28 @@
     </div>
     <script src="/js/filter.js"></script>
 </footer>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        loop: true,
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false
+        },
+        centeredSlides: true,
+        spaceBetween: 10,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true
+        }
+    });
+</script>
+
 
 
 </html>

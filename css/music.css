@@ -2,7 +2,6 @@
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(/images/img2/Personal/DAN_5464.jpg);
   background-size: 100%;
-  background-position-y: 30%;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
