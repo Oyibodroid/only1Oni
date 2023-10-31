@@ -24,7 +24,7 @@ main {
 }
 
 .collabs{
-  width: 56rem;
+  width: 50rem;
   margin: 5rem auto;
 }
 
@@ -37,29 +37,22 @@ main {
   width: 100%;
 }
 
-.collab-grid ul li{
+.swiper{
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.swiper-slide{
+  width: 40%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1.1rem;
   text-transform: uppercase;
   font-weight: 700;
   color: #c4c4c4;
-}
-
-.collab-grid .grid-1{
-  margin: auto;
-  display: grid;
-  place-items: center;
-  justify-content: space-between;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 1rem;
-  max-width: 80%;
-}
-
-.collab-grid .grid-2{
-  margin: 0.6rem auto;
-  display: flex;
-  place-items: center;
-  justify-content: center;
-  gap: 2rem;
+  margin-right: 0.4rem;
 }
 
 #photo-grid {
