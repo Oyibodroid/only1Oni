@@ -280,11 +280,6 @@ span:focus {
     padding: 1em;
   }
 
-  .collab-grid .grid-1{
-    gap: 0.6rem;
-    max-width: 90%;
-  }
-
   #photo-grid .popup-img img {
     width: 90%;
     height: 50vh;
@@ -311,11 +306,6 @@ span:focus {
   width: 24rem;
 }
 
-.collab-grid .grid-1{
-  gap: 0.4rem;
-  max-width: 95%;
-}
-
 }
 
 @media(max-width:400px) {
@@ -333,13 +323,25 @@ span:focus {
     font-size: 2.2rem;
 }
 
-.collabs{
-  width: 24rem;
 }
 
-.collab-grid .grid-1{
-  gap: 0.4rem;
-  max-width: 95%;
+@media(max-width:380px) {
+
+  .hero-content {
+    width: 360px;
+  }
+  #photo-grid h2 {
+    font-size: 2.2rem;
+}
+
+.collabs{
+  width: 20em;
+}
+
+.swiper-slide{
+  width: 30%;
+    font-size: 1rem;
+  margin-right: 1rem;
 }
 
 }
