@@ -26,8 +26,9 @@
     <!-- <script src="./js/nav.js" defer></script>  -->
     <script src="./js/sort.js" defer></script>
     <script src="./js/nav.js"></script>
+    <script src="./js/filter.js" defer></script>
 
-    
+
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
@@ -136,64 +137,103 @@
 
             <h2>photolio</h2>
 
+
             <a href="#" id="up-scroll"> <img src="./images/icons/caret-up.svg" alt=""> </a>
-            <div class="row">
 
-                <div class="column col1">
-                    <img src="images/img2/Pre-wedding/1/DAN_9794.jpg" alt="">
-                    <img src="images/img2/Pre-wedding/2/DAN_0805.jpg" alt="">
-                    <img src="images/img2/Pre-wedding/3/DAN_5718.jpg" alt="">
-                    <img src="images/img2/TosinBee/DAN_0790.jpg" alt="">
-                    <img src="images/img2/Pre-wedding/1/DAN_9574.jpg" alt="">
+            <section id="main">
+                <div id="btn-tab">
 
-                    <img src="images/img/photo-1558212628-ad7f5fb28c5e.jpg" alt="">
-                    <img class="long" src="images/img2/Birthday/GladysLasila/DAN_7693.jpg" alt="">
-                    <img src="images/img2/Birthday/PrincessFola/DAN_9747.jpg" alt="">
+                    <div class="active" id="left">
+                        <img src="images/icons/angle-left.svg" alt="">
+                    </div>
 
-                    <img class="long" src="images/img2/Birthday/Tonia/DAN_7435.jpg" width="200" alt="">
-                    <img src="images/img2/Doonte/DAN_3101.jpg" alt="">
-                    <img src="images/img2/Tush/DAN_6227.jpg" alt="">
-                    <img src="images/img2/Tush/DAN_6326.jpg" alt="">
+                    <div id="filterBtn">
+                        <button class="btn active" data-name="all">Show all</button>
+                        <button class="btn" data-name="wedding">Pre-wedding</button>
+                        <button class="btn" data-name="iyanya">Iyanya</button>
+                        <button class="btn" data-name="tosin">TosinBee</button>
+                        <button class="btn" data-name="Birthday">Birthday</button>
+                        <button class="btn" data-name="doonte">Doonte</button>
+                        <button class="btn" data-name="Collaboration">Collaboration</button>
+                        <button class="btn" data-name="Ehyo">Ehyo</button>
+                        <button class="btn" data-name="timaya">Timaya</button>
+                        <button class="btn" data-name="Personal">Personal</button>
+                        <button class="btn" data-name="Prowess">Prowess</button>
+                        <button class="btn" data-name="Puncho">Puncho</button>
+                        <button class="btn" data-name="Puncho">Relaunch The Library</button>
+                        <button class="btn" data-name="Puncho">Ridah Talatu</button>
+                    </div>
 
-
-                    <img src="images/img2/Collaboration/DAN_1102 1.jpg" alt="">
-                    <img src="images/img2/Iyanya/DAN_9002.jpg" alt="">
-                    <img src="images/img2/ReLaunchTheLibrary/DAN_5988.jpg" alt="">
-                    <img src="images/img2/Iyanya/DAN_8269.jpg" alt="">
-
-                    <img src="images/img2/RidahTalatu/DAN_9876.jpg" alt="">
-                    <img src="images/img2/Puncho/DAN_1585.jpg" alt="">
-                    <img src="images/img2/TosinBee/DAN_0895.jpg" alt="">
-
-                    <img src="images/img2/Puncho/DAN_1681.jpg" alt="">
-                    <img src="./images/img2/Ehyo/DAN_7977.jpg" alt="">
-                    <img src="images/img2/ReLaunchTheLibrary/DAN_6049.jpg" alt="">
-                    <img src="images/img2/Iyanya/DAN_9240.jpg" alt="">
-
-                    <img src="images/img2/Timaya/DAN_6361.jpg" alt="">
-                    <img src="images/img2/Iyanya/DAN_9002.jpg" alt="">
-                    <img src="images/img2/Puncho/DAN_1805.jpg" alt="">
-                    <img src="images/img2/TosinBee/DAN_0629.jpg" alt="">
-
-                    <img src="images/img2/ReLaunchTheLibrary/DAN_5968.jpg" alt="">
-                    <img src="images/img2/Birthday/GladysLasila/DAN_7690.jpg" alt="">
-                    <img src="images/img2/Birthday/PrincessFola/DAN_9725.jpg" alt="">
-
-                    <img src="images/img2/TosinBee/DAN_0800.jpg" alt="">
-                    <img src="images/img2/Puncho/DAN_1603.jpg" alt="">
-                    <img src="images/img2/Collaboration/DAN_0995.jpg" alt="">
-                    <img src="images/img2/Prowess/DAN_0649.jpg" alt="">
-
-                    <img src="images/img2/Tush/DAN_6252.jpg" alt="">
-                    <img src="images/img2/Ehyo/DAN_8319.jpg" alt="">
-                    <img src="images/img2/Iyanya/DAN_8484.jpg" alt="">
+                    <div id="right">
+                        <img src="images/icons/angle-right.svg" alt="">
+                    </div>
                 </div>
 
-            </div>
+
+                <div class="gallery">
+                    <img data-name="wedding" src="images/img2/Pre-wedding/2/DAN_07991.jpg" alt="">
+                    <img data-name="Birthday" src="./images/img2/Birthday/PrincessFola/DAN_9755.jpg" alt=" ">
+                    <img data-name="wedding" src="images/img2/Pre-wedding/2/DAN_0700.jpg" alt="">
+                    <img data-name="doonte" src="images/img2/Doonte/DAN_3060.jpg" alt="">
+                    <img data-name="Birthday" src="images/img2/Birthday/GladysLasila/DAN_7690.jpg" alt="">
+                    <img data-name="wedding" src="images/img2/Pre-wedding/3/DAN_5676.jpg" alt="">
+                    <img data-name="timaya" src="images/img2/Timaya/DAN_5904.jpg" alt="">
+                    <img data-name="wedding" src="images/img2/Pre-wedding/1/DAN_9794.jpg" alt="">
+                    <img data-name="Collaboration" src="images/img2/Collaboration/DAN_0993.jpg" alt="">
+                    <img data-name="Birthday" src="images/img2/Birthday/Tonia/DAN_7435.jpg" alt="">
+                    <img data-name="Ehyo" src="images/img2/Ehyo/DAN_1958.jpg" alt="">
+                    <img data-name="iyanya" src="images/img2/Iyanya/DAN_8233.jpg" alt="">
+                    <img data-name="Personal" src="images/img2/Personal/bannerpage.jpeg" alt="">
+                    <img data-name="Prowess" src="images/img2/Prowess/DAN_0460.jpg" alt="">
+                    <img data-name="Puncho" src="images/img2/Puncho/DAN_1562.jpg" alt="">
+                    <img data-name="ReLaunchTheLibrary" src="images/img2/ReLaunchTheLibrary/DAN_5473.jpg" alt="">
+                    <img data-name="RidahTalatu" src="images/img2/RidahTalatu/DAN_9809.jpg" alt="">
+                    <img data-name="tosin" src="images/img2/TosinBee/DAN_0932.jpg" alt="">
+                    <img data-name="tush" src="images/img2/Tush/DAN_6252.jpg" alt="">
+
+
+
+
+                    <!-- HIDDEN -->
+
+                    <img data-name="doonte" class="hide hidden" src="images/img2/Doonte/DAN_3101.jpg" alt="">
+                    <img data-name="doonte" class="hide hidden" src="images/img2/Doonte/DAN_3122.jpg" alt="">
+
+                    <img data-name="wedding" class="hide hidden" src="images/img2/Pre-wedding/1/DAN_9484.jpg" alt="">
+                    <img data-name="wedding" class="hide hidden" src="images/img2/Pre-wedding/1/DAN_9500.jpg" alt="">
+                    <img data-name="wedding" class="hide" src="images/img2/Pre-wedding/1/DAN_9544.jpg" alt="">
+                    <img data-name="wedding" class="hide" src="images/img2/Pre-wedding/1/DAN_9551.jpg" alt="">
+                    <img data-name="wedding" class="hide" src="images/img2/Pre-wedding/3/DAN_5683.jpg" alt="">
+                    <img data-name="wedding" class="hide" src="images/img2/Pre-wedding/1/DAN_9565.jpg" alt="">
+                    <img data-name="wedding" class="hide" src="images/img2/Pre-wedding/2/DAN_0674.jpg" alt="">
+                    <img data-name="wedding" class="hide" src="images/img2/Pre-wedding/1/DAN_9592.jpg" alt="">
+                    <img data-name="wedding" class="hide" src="images/img2/Pre-wedding/1/DAN_9636.jpg" alt="">
+                    <img data-name="wedding" class="hide" src="images/img2/Pre-wedding/2/DAN_0782.jpg" alt="">
+                    <img data-name="wedding" class="hide" src="images/img2/Pre-wedding/3/DAN_5706.jpg" alt="">
+                    <img data-name="wedding" class="hide" src="images/img2/Pre-wedding/2/DAN_0700.jpg" alt="">
+                    <img data-name="wedding" class="hide" src="images/img2/Pre-wedding/1/DAN_9738.jpg" alt="">
+                    <img data-name="wedding" class="hide" src="images/img2/Pre-wedding/1/DAN_9574.jpg" alt="">
+                    <img data-name="wedding" class="hide" src="images/img2/Pre-wedding/3/DAN_5699.jpg" alt="">
+                    <img data-name="wedding" class="hide" src="images/img2/Pre-wedding/2/DAN_0659.jpg" alt="">
+                    <img data-name="wedding" class="hide" src="images/img2/Pre-wedding/2/DAN_0668.jpg" alt="">
+                    <img data-name="wedding" class="hide" src="images/img2/Pre-wedding/2/DAN_0675.jpg" alt="">
+                    <img data-name="wedding" class="hide" src="images/img2/Pre-wedding/2/DAN_0678.jpg" alt="">
+                    <img data-name="wedding" class="hide" src="images/img2/Pre-wedding/2/DAN_0682.jpg" alt="">
+                    <img data-name="wedding" class="hide" src="images/img2/Pre-wedding/2/DAN_0701.jpg" alt="">
+                    <img data-name="wedding" class="hide" src="images/img2/Pre-wedding/2/DAN_0708.jpg" alt="">
+                    <img data-name="wedding" class="hide" src="images/img2/Pre-wedding/2/DAN_0780.jpg" alt="">
+                    <img data-name="wedding" class="hide" src="images/img2/Pre-wedding/2/DAN_07991.jpg" alt="">
+                    <img data-name="wedding" class="hide" src="images/img2/Pre-wedding/2/DAN_0805.jpg" alt="">
+
+                    <img data-name="wedding" class="hide" src="images/img2/Pre-wedding/3/DAN_5679.jpg" alt="">
+                    <img data-name="wedding" class="hide" src="images/img2/Pre-wedding/3/DAN_5708.jpg" alt="">
+                    <img data-name="wedding" class="hide" src="images/img2/Pre-wedding/3/DAN_5718.jpg" alt="">
+
+                </div>
+            </section>
 
             <div class="popup-img">
-                <span>&times;</span>
-                <img src="images/img2/Iyanya/DAN_8484.jpg" alt="">
+
             </div>
 
         </section>
@@ -221,9 +261,9 @@
         </div>
 
         <div class="social-links">
-            <a class="btn"><i class="fab fa-facebook-f"></i></a>
-            <a class="btn"><i class="fab fa-instagram"></i></a>
-            <a class="btn"><i class="fab fa-tiktok"></i></a>
+            <a class="social-btn"><i class="fab fa-facebook-f"></i></a>
+            <a class="social-btn"><i class="fab fa-instagram"></i></a>
+            <a class="social-btn"><i class="fab fa-tiktok"></i></a>
         </div>
     </div>
     <script src="/js/filter.js"></script>
