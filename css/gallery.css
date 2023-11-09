@@ -305,7 +305,7 @@ span:focus {
 
 #closer{
   padding: .4rem 1rem;
-  margin: 1rem;
+  margin: 1rem 0;
   border-radius: 50%;
   transition: ease 1s;
   width: fit-content;
