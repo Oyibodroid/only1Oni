@@ -355,7 +355,6 @@ span:focus {
 }
 
 #preview-box #img-box>img {
-  /* width: 85%; */
   max-width: 100%;
   height: 80vh;
   object-fit: cover;
