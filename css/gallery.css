@@ -83,6 +83,7 @@ main {
   overflow-x: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  scroll-behavior: smooth;
 }
 
 #filterBtn::-webkit-scrollbar {
@@ -114,13 +115,13 @@ main {
   margin: 0 auto;
   max-width: 900px;
   background-color: #dbdbdb;
-  padding: .6rem;
+  padding: .6rem 1.5rem;
   border-radius: 6px;
 }
 
 #left img,
 #right img {
-  width: 40%;
+  width: 100%;
   border-radius: 50%;
   padding: 1px 7px;
   cursor: pointer;
@@ -133,18 +134,18 @@ main {
 
 #left,
 #right {
-  width: 100px;
+  width: 60px;
   height: 100%;
   top: 0;
-  display: flex;
+  display: none;
   align-items: center;
   position: absolute;
   padding: 1rem;
 }
 
-#left.active,
-#right.active{
-  display: none;
+#left.on,
+#right.on{
+  display: flex;
 }
 
 #left {
